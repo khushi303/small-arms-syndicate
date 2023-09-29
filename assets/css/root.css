@@ -22,17 +22,24 @@
 @media (min-width:576px) {
     :root {
         /* Font-Size */
-        --fs-2xl: 55px;
-        --fs-2md: 18px;
+        --fs-2xl: 38px;
+        --fs-2md: 16px;
     }
 }
 
 @media (min-width: 768px) {
     :root {
         /* Font-Size */
+        --fs-2xl: 55px;
+        --fs-2md: 18px;
+    }
+}
+
+@media (min-width:992px) {
+    :root {
+        /* Font-Size */
         --fs-2xl: 70px;
         --fs-2md: 22px;
-
     }
 }
 
