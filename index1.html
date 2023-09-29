@@ -4,16 +4,88 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    <title>Small Arms Syndicate</title>
+    <link rel="stylesheet" href="./assets/css/style1.css">
+    <link rel="shortcut icon" href="./assets/images/png/nav-logo.png" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
 </head>
 
 <body>
-    <h1>Hello, world!</h1>
+    <!-- navbar -->
+    <section class="bg-black">
+        <div class="container">
+            <nav class="pt-3 pb-2">
+                <div class="d-flex align-items-center justify-content-between">
+                    <a href="">
+                        <img src="./assets/images/png/nav-logo.png" alt="nav-logo" class="w-100 h-100">
+                    </a>
+                    <ul id="navbar"
+                        class="d-flex flex-column list-unstyled flex-lg-row gap_35 justify-content-center align-items-center mobile_view m-0">
+                        <li class="position-relative">
+                            <a onclick="opennav()" href=" #home"
+                                class="text-white ff-agnostic fw-400 fs-2sm nav-line text-nowrap">BUY A SAS</a>
+                        </li>
+                        <li class="position-relative">
+                            <a href="#RoadMap"
+                                class="text-white ff-agnostic fw-400 fs-2sm nav-line text-nowrap">RoadMap</a>
+                        </li>
+                        <li class="position-relative">
+                            <a href="#team" class="text-white ff-agnostic fw-400 fs-2sm nav-line text-nowrap">team</a>
+                        </li>
+                        <li class="position-relative">
+                            <a href="#Rarity"
+                                class="text-white ff-agnostic fw-400 fs-2sm nav-line text-nowrap">Rarity</a>
+                        </li>
+                        <li class="position-relative">
+                            <a href="#Stash" class="text-white ff-agnostic fw-400 fs-2sm nav-line text-nowrap">Stash</a>
+                        </li>
+                        <li class="position-relative">
+                            <a href="#Syndicate Game"
+                                class="text-white ff-agnostic fw-400 fs-2sm nav-line text-nowrap">Syndicate Game</a>
+                        </li>
+                        <li>
+                            <a href="" class="text-white ff-agnostic fw-400 fs-md connect_button text-nowrap">connect
+                                wallet</a>
+                        </li>
+                    </ul>
+                    <div id="menubtn-icon" onclick="opennav()" class="d-xl-none z_3 pe-2 ">
+                        <div class="line"></div>
+                        <div class="line1 my-2"></div>
+                        <div class="line2"></div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </section>
+    <!-- header-section -->
+    <section class="header-bg-img min_vh_100 min_vh_60 min_vh_75 min_vh_80 h_750 position-relative">
+        <img src="./assets/images/png/yellow-dinosour.png" alt="yellow-dinosour"
+            class="w-100 position-absolute yellow_dinosor_xl yellow_dinosor_4xl yellow_dinosor_2xl yellow_dinosor_lg yellow_dinosor_md yellow_dinosor_sm">
+        <img src="./assets/images/png/grey-dinosor.png" alt="grey-dinosor"
+            class="w-100 position-absolute grey_dinosor_xl grey_dinosor_4xl grey_dinosor_2xl grey_dinosor_lg grey_dinosor_md grey_dinosor_sm">
+        <img src="./assets/images/png/golden-dinosor.png" alt="golden-dinosor"
+            class="w-100 position-absolute golden_dinosor_xl golden_dinosor_4xl golden_dinosor_2xl golden_dinosor_lg golden_dinosor_md golden_dinosor_sm">
+        <img src="./assets/images/png/pink-dinosor.png" alt="pink-dinosor"
+            class="w-100 position-absolute pink_dinosor_xl pink_dinosor_4xl pink_dinosor_2xl pink_dinosor_lg pink_dinosor_md pink_dinosor_sm ">
+        <div class="container">
+            <div class="pt-md-150 pt_85 d-flex align-items-center justify-content-center flex-column">
+                <h2 class="ff-agnostic fw-400 fs-2xl text-white">Small Arms Syndicate</h2>
+                <p class="ff-roboto fs-2md fw-500 text-white lh_150 text-center mw_941">Small Arms Syndicate is a
+                    collection
+                    of 10,000 unique T-rex Small Arms NFTs— unique digital collectibles minted on the
+                    Wanchain blockchain. Your Small Arms NFT is your ticket to members-only perks and is your utility
+                    token
+                    in the S.A.S
+                    ecosystem.</p>
+            </div>
+        </div>
+    </section>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
         crossorigin="anonymous"></script>
+    <script src="./assets/js/app1.js"></script>
 </body>
 
 </html>

@@ -5,9 +5,3 @@ https://fontkong.com/product/agnostic/
 
 File Font Version : 
 
-1. Agnostic.otf
-2. Agnostic.ttf
-3. Agnostic.woff
-4. Agnostic Italic.otf
-5. Agnostic Italic.ttf
-6. Agnostic Italic.woff

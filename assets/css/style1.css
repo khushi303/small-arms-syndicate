@@ -1,1 +1,301 @@
 @import url("./root.css");
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none !important;
+    list-style-type: none !important;
+    box-sizing: border-box;
+}
+
+/* ----------------------<navbar>------------------------ */
+
+.z_3 {
+    z-index: 3 !important;
+}
+
+.gap_35 {
+    gap: 35px !important;
+}
+
+.connect_button {
+    padding: 14px 20px;
+    border: transparent;
+    border-radius: 50px;
+    background: linear-gradient(#FED710, #FF5001);
+    transition: 0.3s linear !important;
+}
+
+.connect_button:hover {
+    box-shadow: #FF5001 !important;
+}
+
+.nav-line::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    left: 0;
+    height: 3px;
+    border-radius: 15px;
+    background-color: #ffffff;
+    transition: all 300ms linear;
+    bottom: 0;
+}
+
+.nav-line:hover::after {
+    width: 100%;
+}
+
+/* ------------------header-section------------------- */
+.header-bg-img {
+    background-image: url("../images/png/header-bg-img.png") !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+}
+
+.lh_150 {
+    line-height:150%;
+}
+
+.pt_85 {
+    padding-top:85px;
+}
+
+.yellow_dinosor {
+    bottom: 0;
+    right: 10%;
+    max-width:502px;
+}
+
+.grey_dinosor {
+    bottom: 0;
+    right: 32%;
+    max-width:363px;
+}
+.golden_dinosor{
+    bottom: 0;
+    left:31%;
+    max-width:406px;
+}
+.pink_dinosor{
+    bottom: 0;
+    left:11%;
+    max-width:503px;
+}
+.min_vh_100{
+    min-height: 100vh;
+}
+
+@media (max-width:1200px) {
+    .overflow_hiddden {
+        overflow: hidden;
+    }
+
+    .mobile_view {
+        position: fixed;
+        right: -100%;
+        top: 0;
+        width: 100%;
+        height: 100vh;
+        background-color: black;
+        transition: 300ms linear;
+    }
+
+    .line,
+    .line1,
+    .line2 {
+        width: 35px;
+        background-color: #ffffff;
+        min-height: 3px;
+        border-radius: 15px;
+        transition: 300ms linear;
+    }
+
+    .cross .line {
+        transform: rotate(50deg) translate(17px, 14px);
+    }
+
+    .cross .line1 {
+        transform: translateX(-50%);
+        opacity: 0;
+    }
+
+    .cross .line2 {
+        transform: rotate(-50deg) translateY(-50%);
+    }
+
+}
+@media (min-width:992px) {
+    .mw_941 {
+        max-width: 941px;
+    }
+}
+@media (min-width:1700px) {
+    .yellow_dinosor_xl {
+            bottom: 0;
+            right: 10%;
+            max-width:480px;
+        }
+    
+        .grey_dinosor_xl {
+            bottom: 0;
+            right: 32%;
+            max-width: 332px;
+        }
+    
+        .golden_dinosor_xl {
+            bottom: 0;
+            left: 31%;
+            max-width: 400px;
+        }
+    
+        .pink_dinosor_xl {
+            bottom: 0;
+            left: 11%;
+            max-width:490px;
+        }
+}
+@media (min-width:1400px) and (max-width:1700px) {
+    .yellow_dinosor_4xl {
+            bottom: 0;
+            right:8%;
+            max-width:390px;
+        }
+    
+        .grey_dinosor_4xl {
+            bottom: 0;
+            right: 30%;
+            max-width: 319px;
+        }
+    
+        .golden_dinosor_4xl {
+            bottom: 0;
+            left:27%;
+            max-width:339px;
+        }
+    
+        .pink_dinosor_4xl {
+            bottom: 0;
+            left:3%;
+            max-width:440px;
+        }
+}
+@media (min-width:1200px) and (max-width:1400px) {
+    .yellow_dinosor_2xl {
+            bottom: 0;
+            right: 5%;
+            max-width:370px;
+        }
+    
+        .grey_dinosor_2xl {
+            bottom: 0;
+            right:27%;
+            max-width: 303px;
+        }
+    
+        .golden_dinosor_2xl {
+            bottom: 0;
+            left: 29%;
+            max-width:350px;
+        }
+    
+        .pink_dinosor_2xl {
+            bottom: 0;
+            left:5%;
+            max-width:399px;
+        }
+}
+@media (min-width:992px) and (max-width:1200px) {
+    .yellow_dinosor_lg {
+            bottom: 0;
+            right:-2%;
+            max-width:330px;
+        }
+    
+        .grey_dinosor_lg {
+            bottom: 0;
+            right:25%;
+            max-width:280px;
+        }
+    
+        .golden_dinosor_lg {
+            bottom: 0;
+            left: 21%;
+            max-width:304px;
+        }
+    
+        .pink_dinosor_lg {
+            bottom: 0;
+            left:-3%;
+            max-width:336px;
+        }
+        .min_vh_60{
+            min-height: 60vh !important;
+        }
+}
+@media (min-width:768px) and (max-width:992px) {
+    .yellow_dinosor_md {
+            bottom: 0;
+            right: -2%;
+            max-width:260px;
+        }
+    
+        .grey_dinosor_md {
+            bottom: 0;
+            right: 25%;
+            max-width: 230px;
+        }
+    
+        .golden_dinosor_md {
+            bottom: 0;
+            left: 21%;
+            max-width:220px;
+        }
+    
+        .pink_dinosor_md {
+            bottom: 0;
+            left: -3%;
+            max-width:250px;
+        }
+        .min_vh_75{
+            min-height:75vh !important;
+        }
+}
+@media (min-width:576px) and (max-width:768px) {
+    .yellow_dinosor_sm {
+            bottom: 0;
+            right: -2%;
+            max-width:195px;
+        }
+    
+        .grey_dinosor_sm {
+            bottom: 0;
+            right: 25%;
+            max-width:170px;
+        }
+    
+        .golden_dinosor_sm {
+            bottom: 0;
+            left: 21%;
+            max-width:170px;
+        }
+    
+        .pink_dinosor_sm {
+            bottom: 0;
+            left: -3%;
+            max-width:183px;
+        }
+        .min_vh_80{
+            min-height: 80vh !important;
+        }
+}
+@media (min-width:768px) {_100
+    .h_750 {
+            height: 750px !important;
+        }
+                .pt-md-150 {
+                    padding-top: 150px;
+                }
+}
