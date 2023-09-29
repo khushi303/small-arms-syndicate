@@ -1,1 +1,45 @@
 @import url("./root.css");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box !important;
+    list-style-type: none !important;
+}
+
+.bg_lineargradient {
+    padding: 2px;
+    border-radius: 17.34px;
+    max-width: 422.66px !important;
+    /* border: 1.259px solid #FF5001;
+    border: 1.26px solid; */
+    background: linear-gradient(180deg, #FF5001 0%, #FED710 100%);
+    /* backdrop-filter: blur(31.478700637817383px); */
+}
+
+.bg_card_black {
+    /* max-width: 422.66px !important; */
+    padding: 27px 25px 0 25px;
+    border-radius: 17.34px;
+    /* border: 1.259px solid #FF5001; */
+    background: #0D0D0D;
+    backdrop-filter: blur(31.478700637817383px);
+}
+
+.br-17 {
+    border-radius: 17.34px;
+}
+
+.nav-pills .nav-link {
+    border-radius: 100px !important;
+    background: linear-gradient(180deg, #1B1B1B 0%, #090909 100%) !important;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    background: linear-gradient(180deg, #FED710 0%, #FF5001 100%) !important;
+}
+
+.nav-link {
+    padding: 12px 25px !important;
+}
