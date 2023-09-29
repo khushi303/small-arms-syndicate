@@ -12,11 +12,18 @@
     --fs-2lg: 35px;
     --fs-3lg: 39px;
     --fs-xl: 49px;
-    --fs-2xl: 70px;
+    --fs-2xl: 55px;
     /* Font-Weight */
     --fw-400: 400;
     --fw-500: 500;
     --fw-600: 600;
+}
+
+@media (min-width: 768px) {
+    :root {
+        /* Font-Size */
+        --fs-2xl: 70px;
+    }
 }
 
 /* Font-Size */
