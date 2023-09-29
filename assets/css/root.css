@@ -87,3 +87,12 @@
 .ff-roboto {
     font-family: 'Roboto', sans-serif;
 }
+
+@font-face {
+    font-family: 'agnostic';
+    src: url("../font-family/agnostic/Agnostic.otf");
+}
+
+.ff-agnostic {
+    font-family: 'agnostic';
+}
