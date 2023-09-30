@@ -148,7 +148,27 @@
 .max_width_514{
     max-width: 514px;
 }
-
+/* ------------------team-------------- */
+.team-bg-img {
+    background-image: url("../images/png/team-bg-img.png") !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+}
+.team_img{
+    border-radius: 17.393px;
+        border: 1.263px solid #FF5001;
+}
+.team_img:hover{
+    background: linear-gradient(181deg, rgba(0, 0, 0, 0.00) 54.59%, rgba(0, 0, 0, 0.78) 90.17%), url(<path-to-image>), lightgray 50% / cover no-repeat, linear-gradient(124deg, rgba(255, 255, 255, 0.10) 0%, rgba(255, 255, 255, 0.03) 101.73%);
+        box-shadow: 0px 4px 41px 0px rgba(254, 215, 16, 0.50);
+        backdrop-filter: blur(31.574848175048828px);
+}
+.slick-track{
+    padding-top: 50px !important;
+    padding-bottom: 50px !important;
+}
 
 @media (max-width:1200px) {
     .overflow_hiddden {
@@ -204,7 +224,7 @@
 
 @media (min-width:991.95px) {
     .mw_941 {
-        max-width: 941px;
+        max-width: 941px !important;
     }
 
     .pt_lg_150 {
