@@ -104,9 +104,31 @@
     border-radius: 16px;
     background: url(<path-to-image>), lightgray 50% / cover no-repeat !important;
 }
+.text_gridient_orange {
+    background: linear-gradient(to bottom, #fed710 0%, #ff5001 50%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text !important;
+}
+.text_gridient_yellow{
+            background: linear-gradient(to bottom, #FED710 0%, #FF5001 100%);
+            -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text !important;
+}
+.dot_circle {
+    padding: 0;
+    list-style: none;
+}
 
-.text_orange {
-    color: #ff7505;
+.dot_circle li {
+    padding-left: 12px;
+    text-indent: -.7em;
+}
+
+.dot_circle li::before {
+    content: "• ";
+    color: white;
+    padding-right: 6px;
+
 }
 
 .buy_button {
@@ -124,6 +146,8 @@
 .pb_100 {
     padding-bottom: 100px;
 }
+/* ----------------------roadmap-------------------------- */
+
 
 @media (max-width:1200px) {
     .overflow_hiddden {
@@ -169,6 +193,9 @@
     .min_vh_100 {
         min-height: 100vh !important;
     }
+         .mw_633 {
+             max-width: 633px;
+         }
 }
 
 @media (min-width:991.95px) {
@@ -178,10 +205,6 @@
 
     .pt_lg_150 {
         padding-top: 150px !important;
-    }
-
-    .mw_633 {
-        max-width: 633px;
     }
 
     .mw_541 {
