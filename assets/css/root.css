@@ -22,8 +22,8 @@
 @media (min-width:576px) {
     :root {
         /* Font-Size */
-        --fs-2xl: 38px;
-        --fs-2md: 16px;
+        --fs-2xl: 27px;
+        --fs-2md: 12px;
     }
 }
 
