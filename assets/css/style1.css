@@ -172,6 +172,12 @@
     padding-top: 50px !important;
     padding-bottom: 50px !important;
 }
+.lh_normal{
+    line-height: normal;
+}
+.left_25{
+    left: 25%;
+}
 
 @media (max-width:1200px) {
     .overflow_hiddden {
