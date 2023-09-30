@@ -157,8 +157,11 @@
     object-fit: cover;
 }
 .team_img{
-    border-radius: 17.393px;
+    border-radius: 18px;
         border: 1.263px solid #FF5001;
+}
+.border_radius_18{
+    border-radius: 18px;
 }
 .team_img:hover{
     background: linear-gradient(181deg, rgba(0, 0, 0, 0.00) 54.59%, rgba(0, 0, 0, 0.78) 90.17%), url(<path-to-image>), lightgray 50% / cover no-repeat, linear-gradient(124deg, rgba(255, 255, 255, 0.10) 0%, rgba(255, 255, 255, 0.03) 101.73%);
@@ -390,13 +393,6 @@
     .pt-md-100 {
         padding-top: 100px;
     }
-        .pt_md-76 {
-            padding-top: 76px;
-        }
-    
-        .pb_md-76 {
-            padding-bottom: 76px;
-        }
 }
 
 @media (min-width:575.95px) and (max-width:767.95px) {
@@ -433,6 +429,13 @@
     .h_700 {
         height: 700px !important;
     }
+        .pt_76_md {
+            padding-top: 76px !important;
+        }
+    
+        .pb_76_md {
+            padding-bottom: 76px !important;
+        }
 }
 
 @media (min-width:422px) and (max-width:575px) {
