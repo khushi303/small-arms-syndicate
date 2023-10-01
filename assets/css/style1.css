@@ -178,6 +178,14 @@
 .left_25{
     left: 25%;
 }
+.black_rectangle{
+    width: 103%;
+    height:20px;
+    background-color: white;
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+}
 
 @media (max-width:1200px) {
     .overflow_hiddden {
