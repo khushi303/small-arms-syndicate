@@ -66,6 +66,7 @@
 }
 
 .my_box {
+    cursor: pointer !important;
     border-radius: 17.34px;
     background: linear-gradient(124deg, rgba(255, 255, 255, 0.10) 0%, rgba(255, 255, 255, 0.03) 101.73%);
     backdrop-filter: blur(31.478700637817383px);
@@ -425,8 +426,8 @@
 .bg_linear {
     background: linear-gradient(180deg, #FED710 0%, #FF5001 100%) !important;
     border-radius: 50%;
-    top: -4%;
-    right: -4%;
+    top: -3%;
+    right: -2%;
     width: 40px;
     height: 40px;
 }
