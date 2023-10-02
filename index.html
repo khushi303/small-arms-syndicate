@@ -62,7 +62,7 @@
                     <ul id="navbar"
                         class="d-flex flex-column list-unstyled flex-xl-row gap_35 justify-content-center align-items-center mobile_view m-0 z_3">
                         <li class="position-relative">
-                            <a onclick="opennav()" href=" #home"
+                            <a onclick="opennav()" href="#home"
                                 class="text-white ff-agnostic fw-400 fs-2sm nav-line text-nowrap">BUY A SAS</a>
                         </li>
                         <li class="position-relative">
@@ -80,7 +80,7 @@
                             <a href="#Stash" class="text-white ff-agnostic fw-400 fs-2sm nav-line text-nowrap">Stash</a>
                         </li>
                         <li class="position-relative">
-                            <a href="#Syndicate Game"
+                            <a href="#Syndicate-Game"
                                 class="text-white ff-agnostic fw-400 fs-2sm nav-line text-nowrap">Syndicate Game</a>
                         </li>
                         <li>
@@ -99,7 +99,8 @@
         </div>
     </section>
     <!-- header-section -->
-    <section class="header-bg-img bg-black min_vh_100 min_vh_60 min_vh_75 min_vh_60 min_vh_70 h_700 position-relative">
+    <section id="home"
+        class="header-bg-img bg-black min_vh_100 min_vh_60 min_vh_75 min_vh_60 min_vh_70 h_700 position-relative">
         <img src="./assets/images/webp/yellow-dinosour.webp" alt="yellow-dinosour"
             class="w-100 position-absolute yellow_dinosor_xl yellow_dinosor_4xl yellow_dinosor_2xl yellow_dinosor_lg yellow_dinosor_md yellow_dinosor_sm yellow_dinosor_2sm yellow_dinosor">
         <img src="./assets/images/webp/grey-dinosor.webp" alt="grey-dinosor"
@@ -165,7 +166,7 @@
         </div>
     </section>
     <!-- roadmap -->
-    <section class="bg-black position-relative">
+    <section id="RoadMap" class="bg-black position-relative">
         <div class="container pb-5">
             <h2 class="ff-agnostic fw-400 fs-xl text-white pb-lg-5 pb-md-2 text-xl-start text-center">RoadMap</h2>
             <div class="row justify-content-xl-start justify-content-lg-between justify-content-center pt-4">
@@ -250,7 +251,7 @@
         </div>
     </section>
     <!-- team -->
-    <section class="team-bg-img bg-black position-relative">
+    <section id="team" class="team-bg-img bg-black position-relative">
         <div class="black_rectangle"></div>
         <div class="container py-lg-5 py-3">
             <h2 class="ff-agnostic fw-400 text-white fs-xl text-center py-lg-5 py-3 mb-0">Team</h2>
@@ -288,19 +289,19 @@
         <div class="position-absolute end-0 ellipse1_teamt d-none d-lg-block">
             <img src="./assets/images/png/ellipse1.png" alt="ellipse1" class="">
         </div>
-        <div class="position-absolute end-0 ellipse1_teamb d-none d-lg-block z_index-1 ellipse1_cir"></div>
-        <div class="position-absolute end-0 ellipse1_teamb d-none d-lg-block z_index-1">
+        <div class="position-absolute end-0 ellipse1_teamb d-none d-lg-block z-index-2 ellipse1_cir"></div>
+        <div class="position-absolute end-0 ellipse1_teamb d-none d-lg-block z-index-2">
             <img src="./assets/images/png/ellipse1.png" alt="ellipse1" class="">
         </div>
     </section>
 
     <!-- Khushi -->
     <!-- nav-tab-section -->
-    <section class="bg-black pb-4 pt-4 position-relative">
+    <section id="Rarity" class="bg-black pb-4 pt-4 position-relative">
         <div class="container pb-124">
             <h2 class="ff-agnostic fs-xl fw-400 text-white text-capitalize text-center pb-5">Rarity</h2>
-            <ul class="nav nav-pills gap-4 justify-content-center pb-91 pb-5 overflow-x-auto" id="pills-tab"
-                role="tablist">
+            <ul class="nav nav-pills gap-4 justify-content-center pb-91 pb-5 overflow-x-auto overflow-x-visible"
+                id="pills-tab" role="tablist">
                 <li class="nav-item" role="presentation">
                     <button class="nav-link active" id="pills-background-tab" data-bs-toggle="pill"
                         data-bs-target="#pills-background" type="button" role="tab" aria-controls="pills-background"
@@ -1280,7 +1281,7 @@
         </div>
     </section>
     <!-- royal-stash -->
-    <section class="bg-img-r-stash pb-5">
+    <section id="Stash" class="bg-img-r-stash pb-5">
         <div class="container d-flex align-items-center justify-content-center flex-column pb-5 px-sm-4 px-3">
             <h2 class="ff-agnostic fs-xl fw-400 text-white text-capitalize text-center py-5 mb-0">Royalty Stash</h2>
             <div class="royal-stash-box w-100 position-relative">
@@ -1322,7 +1323,7 @@
         </div>
     </section>
     <!-- Syndicate Game -->
-    <section class="bg-black py-5 position-relative">
+    <section id="Syndicate-Game" class="bg-black py-5 position-relative">
         <div class="container py-5">
             <div class="row justify-content-center">
                 <div class="col-lg-6 col-12 d-flex justify-content-center flex-column">
@@ -1344,7 +1345,7 @@
                             <img src="./assets/images/webp/bloody-dinosor.webp" alt="bloody-dinosor"
                                 class="w-100 br-17">
                         </div>
-                        <div
+                        <div type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"
                             class="play-btn-orange position-absolute play-btn z_index-1 d-flex align-items-center justify-content-center">
                             <div class="play-btn-orange2 d-flex align-items-center justify-content-center">
                                 <div class="play-btn-yellow d-flex align-items-center justify-content-center">
@@ -1367,7 +1368,7 @@
         </div>
     </section>
     <!-- footer -->
-    <section class="bg-black pt-150 position-relative">
+    <section id="connect" class="bg-black pt-150 position-relative">
         <div class="container pt-5 pt-lg-0">
             <div class="d-flex align-items-center justify-content-center flex-column">
                 <img src="./assets/images/webp/footer-logo.webp" alt="footer-logo" class="w-100 mw-149">
@@ -1535,6 +1536,19 @@
             <img src="./assets/images/webp/footer-dinosor-1.webp" alt="footer-dinosor-1" class="w-100">
         </div>
     </section>
+    <div class="container">
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
         crossorigin="anonymous"></script>
