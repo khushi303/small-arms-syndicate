@@ -653,6 +653,7 @@
 .team_img {
     border-radius: 18px;
     border: 1.263px solid #FF5001;
+    cursor: pointer !important;
 }
 
 .border_radius_18 {
