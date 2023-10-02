@@ -250,10 +250,6 @@
     pointer-events: none;
 }
 
-.bloody-dinosor-pad-box {
-    padding: 34px 37px;
-}
-
 .overflow-x-visible {
     overflow-x: visible;
 }
@@ -405,6 +401,34 @@
 
 .ellipse1_roadmap {
     top: 13%;
+}
+
+.modal-dialog {
+    max-width: 1000px !important;
+}
+
+.modal-content {
+    border-radius: 28px !important;
+}
+
+.bg_color_linear_box {
+    background: linear-gradient(180deg, #FED710 0%, #FF5001 100%);
+    /* border-radius: 12px !important; */
+    padding: 3.259px 3.259px 0 3.259px;
+    margin-bottom: -4px;
+}
+
+.pt-110 {
+    padding-top: 110px !important;
+}
+
+.bg_linear {
+    background: linear-gradient(180deg, #FED710 0%, #FF5001 100%) !important;
+    border-radius: 50%;
+    top: -4%;
+    right: -4%;
+    width: 40px;
+    height: 40px;
 }
 
 .play-btn-orange2:before {
@@ -1226,6 +1250,10 @@
     top: 0%;
     animation: rotate-one 1s linear infinite;
     border-bottom: 8px solid #e78b29e7;
+}
+
+.text_orange {
+    color: #e78b29e7 !important;
 }
 
 .inner.two {

@@ -37,6 +37,7 @@
         /* Font-Size */
         --fs-2xl: 38px;
         --fs-xl: 39px;
+        --fs-lg: 21px;
     }
 }
 
@@ -44,6 +45,7 @@
     :root {
         /* Font-Size */
         --fs-2xl: 49px;
+        --fs-lg: 21px;
     }
 }
 
