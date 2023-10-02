@@ -19,7 +19,27 @@
     --fw-600: 600;
 }
 
-@media (min-width:576px) {}
+@media (max-width:576px) {
+    :root {
+        /* Font-Size */
+        --fs-2xl: 24px;
+        --fs-2md: 14px;
+    }
+}
+
+@media (min-width:576px) and (max-width:768px) {
+    :root {
+        /* Font-Size */
+        --fs-2xl: 38px;
+    }
+}
+
+@media (min-width:768px) and (max-width:992px) {
+    :root {
+        /* Font-Size */
+        --fs-2xl: 49px;
+    }
+}
 
 /* Font-Size */
 .fs-sm {
