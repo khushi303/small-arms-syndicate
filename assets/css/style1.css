@@ -200,6 +200,53 @@
     z-index: 1;
     bottom: 0;
 }
+.ellipse1 {
+    top: -11%;
+}
+
+.ellipse1_cir {
+    width: 334px;
+    height: 334px;
+    /* transform: rotate(-162.487deg);
+    flex-shrink: 0; */
+    border-radius: 334px;
+    background: #781D00;
+    filter: blur(250px);
+}
+
+.ellipse2 {
+    top: 11%;
+}
+
+.ellipse1_teamb {
+    bottom: -13%;
+}
+
+.ellipse1_teamt {
+    top: -13%;
+}
+
+.ellipse2_roadmap {
+    top: 45%;
+}
+
+.ellipse2_welcome {
+    top: 0;
+}
+
+.ellipse1_welcome {
+    bottom: 0;
+}
+
+.ellipse1_roadmap {
+    top: 13%;
+}
+.z_index-2{
+    z-index: 2 !important;
+}
+.z_index-1{
+    z-index: 1 !important;
+}
 
 @media (max-width:1200px) {
     .overflow_hiddden {
