@@ -330,6 +330,10 @@
     max-width: 363px;
 }
 
+.overflow-x-auto {
+    overflow-x: auto !important;
+}
+
 /*---------------------------------------------------------alka------------------------------------------------------ */
 /* ----------------------<navbar>------------------------ */
 
@@ -770,6 +774,10 @@
     .ml_140 {
         margin-left: 140px !important;
     }
+
+    .lh_180 {
+        line-height: 180%;
+    }
 }
 
 @media (min-width:1400px) and (max-width:1700px) {
@@ -795,6 +803,10 @@
         bottom: 0;
         left: -1%;
         max-width: 440px;
+    }
+
+    .lh_180 {
+        line-height: 180%;
     }
 }
 
@@ -822,12 +834,16 @@
         left: 5%;
         max-width: 399px;
     }
+
+    .lh_150 {
+        line-height: 150%;
+    }
 }
 
 @media (min-width:991.95px) and (max-width:1200px) {
     .yellow_dinosor_lg {
         bottom: 0;
-        right: -2%;
+        right: 0;
         max-width: 330px;
     }
 
@@ -857,7 +873,7 @@
 @media (min-width:767.95px) and (max-width:991.95px) {
     .yellow_dinosor_md {
         bottom: 0;
-        right: -2%;
+        right: 0;
         max-width: 260px;
     }
 
@@ -891,7 +907,7 @@
 @media (min-width:575.95px) and (max-width:767.95px) {
     .yellow_dinosor_sm {
         bottom: 0;
-        right: -2%;
+        right: 0;
         max-width: 195px;
     }
 
@@ -935,7 +951,7 @@
 @media (min-width:422px) and (max-width:575px) {
     .yellow_dinosor_2sm {
         bottom: 0;
-        right: -2%;
+        right: 0;
         max-width: 160px;
     }
 
