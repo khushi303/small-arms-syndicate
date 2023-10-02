@@ -40,11 +40,14 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
-<body class="overflow-hidden">
+<body class="overflow-hidden bg-black">
+    <a href="#" id="scroll" style="display: none;"><span></span></a>
     <div id="preloder"
-        class="animation min-vh-100 w-100 bg-black position-fixed top-0 start-0 d-flex align-items-center justify-content-center z-index-4 duration_300 cur-pointer">
-        <div class="d-flex align-items-center">
-            <img src="./assets/images/webp/nav-logo.webp" alt="nav-logo" class="w-100 h-100">
+        class="min-vh-100 w-100 bg-black position-fixed top-0 start-0 d-flex align-items-center justify-content-center z-index-6 duration_300 cur-pointer">
+        <div class="loader">
+            <div class="inner one"></div>
+            <div class="inner two"></div>
+            <div class="inner three"></div>
         </div>
     </div>
     <!-- alka -->
@@ -81,7 +84,8 @@
                                 class="text-white ff-agnostic fw-400 fs-2sm nav-line text-nowrap">Syndicate Game</a>
                         </li>
                         <li>
-                            <a href="" class="text-white ff-agnostic fw-400 fs-md connect_button text-nowrap">connect
+                            <a href="#connect"
+                                class="text-white ff-agnostic fw-400 fs-md connect_button text-nowrap">connect
                                 wallet</a>
                         </li>
                     </ul>
@@ -119,7 +123,7 @@
         </div>
     </section>
     <!-- welcome-section -->
-    <section class="pt_76_md pb_76_md bg-black">
+    <section class="pt_76_md pb_76_md bg-black position-relative">
         <div class="container pt-5 pb-5">
             <div class="row align-items-center justify-content-xl-between justify-content-center">
                 <div class="col-xl-5 col-lg-10 col-11 d-flex align-items-center justify-content-center">
@@ -145,15 +149,23 @@
                                 gravida.</span>
                         </p>
                         <div class="text-xl-start text-center">
-                            <a href="" class="buy_button ff-agnostic fw-400 text-white">Buy now</a>
+                            <a href="#buy" class="buy_button ff-agnostic fw-400 text-white">Buy now</a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+        <div class="position-absolute start-0 ellipse2_welcome d-none d-lg-block ellipse1_cir"></div>
+        <div class="position-absolute start-0 ellipse2_welcome d-none d-lg-block">
+            <img src="./assets/images/png/ellipse2.png" alt="ellipse2">
+        </div>
+        <div class="position-absolute end-0 ellipse1_welcome d-none d-lg-block ellipse1_cir"></div>
+        <div class="position-absolute end-0 ellipse1_welcome d-none d-lg-block">
+            <img src="./assets/images/png/ellipse1.png" alt="ellipse1" class="">
+        </div>
     </section>
     <!-- roadmap -->
-    <section class="bg-black">
+    <section class="bg-black position-relative">
         <div class="container pb-5">
             <h2 class="ff-agnostic fw-400 fs-xl text-white pb-lg-5 pb-md-2 text-xl-start text-center">RoadMap</h2>
             <div class="row justify-content-xl-start justify-content-lg-between justify-content-center pt-4">
@@ -228,12 +240,20 @@
                 </div>
             </div>
         </div>
+        <div class="position-absolute start-0 ellipse2_roadmap d-none d-lg-block ellipse1_cir"></div>
+        <div class="position-absolute start-0 ellipse2_roadmap d-none d-lg-block">
+            <img src="./assets/images/png/ellipse2.png" alt="ellipse2">
+        </div>
+        <div class="position-absolute end-0 ellipse1_roadmap d-none d-md-block d-lg-none ellipse1_cir"></div>
+        <div class="position-absolute end-0 ellipse1_roadmap d-none d-md-block d-lg-none">
+            <img src="./assets/images/png/ellipse1.png" alt="ellipse1" class="">
+        </div>
     </section>
     <!-- team -->
     <section class="team-bg-img bg-black position-relative">
         <div class="black_rectangle"></div>
-        <div class="container py-5">
-            <h2 class="ff-agnostic fw-400 text-white fs-xl text-center py-5">Team</h2>
+        <div class="container py-lg-5 py-3">
+            <h2 class="ff-agnostic fw-400 text-white fs-xl text-center py-lg-5 py-3 mb-0">Team</h2>
             <div class="team_slider">
                 <div class="px-3">
                     <div class="team_img position-relative z-1">
@@ -264,11 +284,19 @@
                 </div>
             </div>
         </div>
+        <div class="position-absolute end-0 ellipse1_teamt d-none d-lg-block ellipse1_cir"></div>
+        <div class="position-absolute end-0 ellipse1_teamt d-none d-lg-block">
+            <img src="./assets/images/png/ellipse1.png" alt="ellipse1" class="">
+        </div>
+        <div class="position-absolute end-0 ellipse1_teamb d-none d-lg-block z_index-1 ellipse1_cir"></div>
+        <div class="position-absolute end-0 ellipse1_teamb d-none d-lg-block z_index-1">
+            <img src="./assets/images/png/ellipse1.png" alt="ellipse1" class="">
+        </div>
     </section>
 
     <!-- Khushi -->
     <!-- nav-tab-section -->
-    <section class="bg-black pb-4 pt-4">
+    <section class="bg-black pb-4 pt-4 position-relative">
         <div class="container pb-124">
             <h2 class="ff-agnostic fs-xl fw-400 text-white text-capitalize text-center pb-5">Rarity</h2>
             <ul class="nav nav-pills gap-4 justify-content-center pb-91 pb-5 overflow-x-auto" id="pills-tab"
@@ -1242,6 +1270,14 @@
                 <button class="btn-explore ff-agnostic fs-md fw-400 text-white text-capitalize">Explore More</button>
             </div>
         </div>
+        <div class="position-absolute end-0 ellipse1_royal d-none d-lg-block ellipse1_cir"></div>
+        <div class="position-absolute end-0 ellipse1_royal d-none d-lg-block">
+            <img src="./assets/images/png/ellipse1.png" alt="ellipse1" class="">
+        </div>
+        <div class="position-absolute start-0 ellipse2_royal d-none d-lg-block ellipse1_cir"></div>
+        <div class="position-absolute start-0 ellipse2_royal d-none d-lg-block">
+            <img src="./assets/images/png/ellipse2.png" alt="ellipse2">
+        </div>
     </section>
     <!-- royal-stash -->
     <section class="bg-img-r-stash pb-5">
@@ -1286,7 +1322,7 @@
         </div>
     </section>
     <!-- Syndicate Game -->
-    <section class="bg-black py-5">
+    <section class="bg-black py-5 position-relative">
         <div class="container py-5">
             <div class="row justify-content-center">
                 <div class="col-lg-6 col-12 d-flex justify-content-center flex-column">
@@ -1325,10 +1361,14 @@
                 </div>
             </div>
         </div>
+        <div class="position-absolute start-0 ellipse2 d-none d-lg-block ellipse1_cir"></div>
+        <div class="position-absolute start-0 ellipse2 d-none d-lg-block">
+            <img src="./assets/images/png/ellipse2.png" alt="ellipse2">
+        </div>
     </section>
     <!-- footer -->
     <section class="bg-black pt-150 position-relative">
-        <div class="container">
+        <div class="container pt-5 pt-lg-0">
             <div class="d-flex align-items-center justify-content-center flex-column">
                 <img src="./assets/images/webp/footer-logo.webp" alt="footer-logo" class="w-100 mw-149">
                 <div class="d-flex pt-5 pb-53 gap-3">
@@ -1483,6 +1523,10 @@
         <div class="container">
             <p class="ff-poppins fs-sm fw-400 opacity_70 py-3 mb-0 text-white text-center">Copyright©Small Arms
                 Syndicate.com</p>
+        </div>
+        <div class="position-absolute end-0 ellipse1 d-none d-md-block ellipse1_cir"></div>
+        <div class="position-absolute end-0 ellipse1 d-none d-md-block">
+            <img src="./assets/images/png/ellipse1.png" alt="ellipse1" class="">
         </div>
         <div class="position-absolute bottom-0 start-0 footer-dinosor d-sm-block d-none">
             <img src="./assets/images/webp/footer-dinosor.webp" alt="footer-dinosor" class="w-100">
