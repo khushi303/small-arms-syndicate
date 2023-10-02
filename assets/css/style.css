@@ -291,9 +291,9 @@
 
 .play-btn-orange {
     background: #FF50014D;
-    width: 140px;
-    height: 140px;
-    border-radius: 140px;
+    width: 120px;
+    height: 120px;
+    border-radius: 120px;
 }
 
 .play-btn-orange2 {
@@ -704,6 +704,25 @@
 
     .footer-dinosor {
         max-width: 135px;
+    }
+
+    .play-btn-orange {
+        width: 140px;
+        height: 140px;
+        border-radius: 140px;
+    }
+
+    .play-btn-orange2 {
+        border-radius: 80px;
+        height: 80px;
+        width: 80px;
+    }
+
+    .play-btn-yellow {
+        border-radius: 55px;
+        background: #FED710;
+        width: 55px;
+        height: 55px;
     }
 }
 
