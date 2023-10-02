@@ -73,8 +73,8 @@
 
 .yellow_dinosor {
     bottom: 0;
-    right: -2%;
-    max-width: 138px;
+    right: 0%;
+    max-width: 130px;
 }
 
 .grey_dinosor {
@@ -142,9 +142,6 @@
 .lh_174{
     line-height: 174%;
 }
-.lh_180{
-    line-height: 180%;
-}
 .max_width_514{
     max-width: 514px;
 }
@@ -177,6 +174,9 @@
 }
 .left_25{
     left: 25%;
+}
+.lh_180 {
+    line-height: 180%;
 }
 .black_rectangle{
     width: 100%;
@@ -291,6 +291,9 @@
     .ml_140{
         margin-left:140px !important;
     }
+        .lh_180 {
+            line-height: 180%;
+        }
 }
 
 @media (min-width:1400px) and (max-width:1700px) {
@@ -317,6 +320,9 @@
         left: -1%;
         max-width: 440px;
     }
+        .lh_180 {
+            line-height: 180%;
+        }
 }
 
 @media (min-width:1200px) and (max-width:1400px) {
@@ -343,6 +349,9 @@
         left: 5%;
         max-width: 399px;
     }
+        .lh_150 {
+            line-height: 150%;
+        }
 }
 
 @media (min-width:991.95px) and (max-width:1200px) {
