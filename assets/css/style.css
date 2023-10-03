@@ -334,6 +334,10 @@
     padding-bottom: 53px;
 }
 
+.cur_pointer {
+    cursor: pointer !important;
+}
+
 .opacity_70 {
     opacity: 0.7;
 }
