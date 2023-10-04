@@ -5,9 +5,8 @@
     margin: 0;
     box-sizing: border-box !important;
     list-style-type: none !important;
+    text-decoration: none !important;
 }
-
-/*---------------------------khushi----------------------------------------*/
 
 .bg_lineargradient {
     padding: 6px;
@@ -51,7 +50,6 @@
 .my_box:hover img {
     transform: scale(1.02);
     transition: all .3s linear;
-    /* box-shadow: 0px 4px 41px 0px rgba(254, 135, 16, 0.57); */
 }
 
 .my_box:hover {
@@ -62,7 +60,6 @@
     max-width: 422.66px !important;
     color: black;
     transition: all .2s linear !important;
-    /* margin: 24px auto; */
 }
 
 .my_box {
@@ -73,7 +70,6 @@
     position: relative;
     padding: 1.259px;
     transition: all .3s linear;
-    /* box-shadow: 0px 1px 3px 1px #FF5001; */
 }
 
 .my_box::after {
@@ -119,11 +115,6 @@
 .pt-29 {
     padding-top: 29px;
 }
-
-/* .grid-items:hover {
-    transition: all 200ms linear;
-    transform: scale(1.1);
-} */
 
 .grid-box {
     display: grid;
@@ -179,7 +170,7 @@
 }
 
 .bg-img-r-stash {
-    background-image: url("../images/png/bg-img-r-stash.png");
+    background-image: url("../images/webp/bg-img-r-stash.webp");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -189,7 +180,6 @@
 .royal-stash-box {
     max-width: 1136px !important;
     color: black;
-    /* margin: 24px auto; */
 }
 
 .royal-stash-box {
@@ -223,7 +213,7 @@
 .bloody-dinosor-box {
     max-width: 650px !important;
     color: black;
-    /* margin: 24px auto; */
+
 }
 
 .bloody-dinosor-box {
@@ -327,7 +317,6 @@
 
 .icon_link:hover {
     transform: translateY(-7px) !important;
-    /* box-shadow: 0px 4px 41px 0px rgba(254, 135, 16, 0.57); */
 }
 
 .pb-53 {
@@ -361,8 +350,6 @@
 .ellipse1_cir {
     width: 334px;
     height: 334px;
-    /* transform: rotate(-162.487deg);
-    flex-shrink: 0; */
     border-radius: 334px;
     background: #781D00;
     filter: blur(250px);
@@ -414,7 +401,6 @@
 
 .bg_color_linear_box {
     background: linear-gradient(180deg, #FED710 0%, #FF5001 100%);
-    /* border-radius: 12px !important; */
     padding: 3.259px 3.259px 0 3.259px;
     margin-bottom: -4px;
 }
@@ -489,9 +475,6 @@
     }
 }
 
-/*---------------------------------------------------------alka------------------------------------------------------ */
-/* ----------------------<navbar>------------------------ */
-
 .z_3 {
     z-index: 3 !important;
 }
@@ -536,10 +519,6 @@
     background-position: center;
     object-fit: cover;
 }
-
-/* .lh_150 {
-    line-height: 150%;
-} */
 
 .pt_75 {
     padding-top: 75px;
@@ -643,7 +622,7 @@
 
 /* ------------------team-------------- */
 .team-bg-img {
-    background-image: url("../images/png/team-bg-img.png") !important;
+    background-image: url("../images/webp/team-bg-img.webp") !important;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -887,7 +866,7 @@
     }
 
     .cross .line {
-        transform: rotate(50deg) translate(19px, 17px);
+        transform: rotate(50deg) translate(17px, 14px);
     }
 
     .cross .line1 {
