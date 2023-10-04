@@ -237,8 +237,8 @@
     pointer-events: none;
 }
 
-.overflow-x-visible {
-    overflow-x: visible;
+.overflow-x-scroll {
+    overflow-x: scroll !important;
 }
 
 .mw-294 {
@@ -671,6 +671,9 @@
     padding: 31px 30px 0 30px;
 }
 
+.w_1250 {
+    width: 1250px !important;
+}
 
 @media (min-width:576px) {
     .mw-rs-img1 {
