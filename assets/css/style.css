@@ -21,7 +21,6 @@
 .bg_card_black {
     padding: 27px 25px 0 25px;
     border-radius: 17.34px;
-    /* background: linear-gradient(124deg, rgba(255, 255, 255, 0.10) 0%, rgba(255, 255, 255, 0.03) 101.73%); */
     backdrop-filter: blur(31.478700637817383px);
 }
 
@@ -237,10 +236,6 @@
     pointer-events: none;
 }
 
-.overflow-x-scroll {
-    overflow-x: scroll !important;
-}
-
 .mw-294 {
     max-width: 294px;
 }
@@ -337,10 +332,6 @@
 
 .footer-dinosor {
     max-width: 363px;
-}
-
-.overflow-x-auto {
-    overflow-x: auto !important;
 }
 
 .ellipse1 {
@@ -675,6 +666,10 @@
     width: 1250px !important;
 }
 
+.overflow-x-scroll {
+    overflow-x: scroll !important;
+}
+
 @media (min-width:576px) {
     .mw-rs-img1 {
         max-width: 129px;
@@ -767,6 +762,10 @@
 
     .footer-dinosor {
         max-width: 200px;
+    }
+
+    .overflow-x-visible {
+        overflow-x: visible !important;
     }
 }
 
@@ -1182,7 +1181,7 @@
 }
 
 ::-webkit-scrollbar {
-    width: 15px;
+    width: 10px;
 }
 
 /* Track */
